@@ -33,7 +33,7 @@ jobs:
           echo "JWT_SECRET is set"
           echo "PORT is set"
 
-      - run: pm2 stop all
+      - run: pm2 stop all || true
 
       - name: Install Backend Dependencies
         working-directory: ./backend
@@ -63,5 +63,5 @@ jobs:
           touch .env
           echo "${{ secrets.PROD }}" > .env
 
-      - run: pm2 start all
-      - run: pm2 restart all
+      - run: pm2 start all || true
+      - run: pm2 restart all || true
