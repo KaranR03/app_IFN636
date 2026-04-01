@@ -32,8 +32,8 @@ npm install
 Create a `.env` file in the `backend/` folder:
 ```
 PORT=5001
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+MONGO_URI=mongodb_connection_string
+JWT_SECRET=secret_key
 ```
 
 Start the backend:
@@ -63,8 +63,8 @@ http://52.62.199.138:5001
 
 To access the dashboard, register a new account or use:
 ```
-Email: admin@example.com
-Password: password123
+Email: karan1@gmail.com
+Password: karan123
 ```
 
 > Note: Register a new account if demo credentials don't work.
