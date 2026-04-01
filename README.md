@@ -56,7 +56,7 @@ npm test
 
 ## Public URL
 ```
-http://3.27.218.101:5001
+http://52.62.199.138:5001
 ```
 
 ## Demo Credentials
