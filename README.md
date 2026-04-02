@@ -56,15 +56,15 @@ npm test
 
 ## Public URL
 ```
-http://52.62.199.138:5001
+http://54.79.173.237:3000
 ```
 
 ## Demo Credentials
 
 To access the dashboard, register a new account or use:
 ```
-Email: karan1@gmail.com
-Password: karan123
+Email: karan12345@gmail.com
+Password: pass1
 ```
 
 > Note: Register a new account if demo credentials don't work.
