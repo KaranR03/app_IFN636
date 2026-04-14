@@ -90,3 +90,14 @@ The pipeline automatically:
 ## GitHub Repository
 
 https://github.com/KaranR03/app_IFN636
+
+
+## start 
+cd ~/app_IFN636/backend
+pm2 start server.js --name backend
+
+cd ~/app_IFN636/frontend
+pm2 serve build 3000 --name frontend --spa
+
+pm2 save
+pm2 status
