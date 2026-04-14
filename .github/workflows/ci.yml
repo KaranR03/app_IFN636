@@ -48,7 +48,7 @@ jobs:
           df -h
           sudo rm -rf ./build
           yarn install
-         CI=false yarn build
+          CI=false yarn build
 
       - name: Run Backend Tests
         env:
